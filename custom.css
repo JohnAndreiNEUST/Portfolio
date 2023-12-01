@@ -1,0 +1,103 @@
+html, body{
+height: 100%;
+background: linear-gradient(to right, #0E0834, #280F60, #391378);
+font-family: sans-serif;
+font-weight: bold;
+}
+
+body {
+background-image: url("background-design.png");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+display: flex;
+flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;
+}
+
+footer{
+flex-shrink: 0;
+}
+
+header {
+background: no-repeat center center;
+background-size: cover;
+color: #dfdfdf;
+}
+
+.color-overlay {
+background-color: rgba(0,0,0,0.3);
+background-image: linear-gradient(to right, rgba(14,8,52,0.4), rgba(40,15,96,0.4), rgba(57,19,120,0.4));
+min-height: 60vh;
+}
+
+.singleCol {
+max-width: 750px;
+}
+
+footer {
+background-color: #492684;
+}
+
+footer a{
+color: white;
+}
+
+footer a:hover{
+color: #dfdfdf;
+}
+
+@media (max-width: 768px){
+	.color-overlay{
+		min-height: 30vh;
+	} 
+}
+
+
+
+
+@font-face {
+	font-family: myFont;
+	src: url(elemental-end.ttf);
+}
+h1{
+	font-family: myFont;
+}
+h1, h2 {
+	color: #78DAEF;
+}
+.nav-link, p, label {
+	color: #dfdfdf;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #78DAEF;
+}
+.navbar-light .navbar-nav .nav-link.active {
+	color: #78DAEF;
+}
+a {
+    text-decoration: none;
+    color: #dfdfdf;
+}
+.card {
+	background-color: #492684;
+	color: #dfdfdf;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+.card h5 {
+	font-weight: bold;
+	color: #78DAEF;
+	font-family: myFont;
+}
+.btn:hover {
+	background-color: #78DAEF;
+}
+
+
+
+
+
