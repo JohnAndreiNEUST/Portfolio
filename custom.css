@@ -79,9 +79,10 @@ h1, h2 {
 	color: #78DAEF;
 }
 .navbar-toggler {
-	color: lightyellow;
+	color: #78DAEF;
 	border: none;
 	font-size: 1.4em;
+}
 a {
 	text-decoration: none;
 	color: #dfdfdf;
