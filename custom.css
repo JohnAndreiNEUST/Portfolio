@@ -78,10 +78,9 @@ h1, h2 {
 .navbar-light .navbar-nav .nav-link.active {
 	color: #78DAEF;
 }
-.navbar-toggler {
+.navbar-dark, .navbar-toggler {
 	color: #78DAEF;
 	border: none;
-	font-size: 1.4em;
 }
 a {
 	text-decoration: none;
