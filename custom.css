@@ -79,14 +79,14 @@ h1, h2 {
 	color: #78DAEF;
 }
 a {
-    text-decoration: none;
-    color: #dfdfdf;
+	text-decoration: none;
+	color: #dfdfdf;
 }
 .card {
 	background-color: #492684;
 	color: #dfdfdf;
-    font-size: 1.2rem;
-    border-radius: 10px;
+	font-size: 1.2rem;
+    	border-radius: 10px;
 }
 .card h5 {
 	font-weight: bold;
